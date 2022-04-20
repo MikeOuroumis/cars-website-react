@@ -25,7 +25,6 @@ function App() {
         <PerfectlyProtect />
         <Since1986 />
         <CustomerFavoriteSection />
-        {/*  */}
       </div>
     </>
   );
