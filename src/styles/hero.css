@@ -61,32 +61,6 @@
   opacity: 1;
 }
 
-#hero-button {
-  position: relative;
-  margin-top: 30px;
-  margin-left: 50px;
-  width: 170px;
-  height: 48px;
-  background: var(--unnamed-color-0078c9) 0% 0% no-repeat padding-box;
-  background: #0078c9 0% 0% no-repeat padding-box;
-  color: #fff;
-  border-radius: 24px;
-  opacity: 1;
-  z-index: 9999;
-}
-
-#hero-button:hover {
-  /* position: relative; */
-  background: #09558f;
-  color: #fff;
-  /* top: 200px; */
-  /* left: 51px; */
-  width: 170px;
-  height: 48px;
-  opacity: 1;
-  z-index: 9999;
-}
-
 img,
 svg {
   vertical-align: unset !important;

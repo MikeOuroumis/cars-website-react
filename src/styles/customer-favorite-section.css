@@ -1,4 +1,57 @@
 .customer-favorite-section-container {
   position: relative;
   text-align: center;
+  padding-top: 40px;
+  background-color: #f8f9fa;
+  margin-top: 30px;
+}
+.cards2-container {
+  display: flex;
+}
+.card2-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+}
+.card2-container {
+  padding: 10px;
+}
+.card2 {
+  transition: 0.6s;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 14px 40px #0000000a;
+  border-radius: 12px;
+  border: #f8f9fa;
+  opacity: 1;
+}
+
+.card2:hover {
+  box-shadow: 5px 10px 18px #00101a5d;
+  transition: 0.6s;
+}
+
+.card2-image {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 14px 40px #0000000a;
+  border-radius: 12px;
+  opacity: 1;
+}
+
+.card2-price-text {
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.starting-at-text {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300)
+    13px/21px var(--unnamed-font-family-coverking);
+  color: var(--unnamed-color-00101a);
+  text-align: left;
+  font: normal normal 300 13px/21px Coverking;
+  letter-spacing: -0.26px;
+  color: #00101a;
 }
