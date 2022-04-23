@@ -5,6 +5,8 @@ import Hero from "./components/hero";
 import PerfectlyProtect from "./components/perfectly-protect-section";
 import Since1986 from "./components/since-1986-section";
 import CustomerFavoriteSection from "./components/shop-customer-favorites";
+import BrandsSection from "./components/brands-section";
+import FeaturedCollectionsSection from "./components/featured-collections-section";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <PerfectlyProtect />
         <Since1986 />
         <CustomerFavoriteSection />
+        <BrandsSection />
+        <FeaturedCollectionsSection />
       </div>
     </>
   );
