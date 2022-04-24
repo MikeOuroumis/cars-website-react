@@ -12,3 +12,84 @@
   opacity: 1;
   margin: 50px;
 }
+
+.featured-collections-objects-container {
+  display: flex;
+  margin-left: 15px;
+  /* flex-direction: row; */
+}
+
+.featured-collections-objects-container li {
+  list-style: none;
+  width: 74px;
+  height: 31px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-25) / 60px var(--unnamed-font-family-coverking);
+  text-align: left;
+  font: normal normal bold 25px/60px Coverking;
+  letter-spacing: 0.63px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+  padding: 30px;
+}
+
+#jeep {
+  background-image: url("../resources/Group\ 103@2x.png");
+  width: 800px;
+  height: 470px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* flex-grow: 3; */
+}
+
+#sports {
+  background-image: url("../resources/Group\ 104@2x.png");
+  min-width: 540px;
+  height: 220px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#camo {
+  background-image: url("../resources/Group\ 105@2x.png");
+  min-width: 540px;
+  min-height: 220px;
+  position: relative;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+.featured-collections-button {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 170px;
+  height: 48px;
+  /* background: var(--unnamed-color-0078c9) 0% 0% no-repeat padding-box; */
+  background: #fff 0% 0% no-repeat padding-box;
+  color: #000;
+  border-radius: 24px;
+  border: none;
+  opacity: 1;
+  z-index: 9999;
+
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    13px/21.97px var(--unnamed-font-family-coverking);
+  color: var(--unnamed-color-032a45);
+  text-align: center;
+  font: normal normal bold 13px/22px Coverking;
+  letter-spacing: 1.3px;
+  color: #032a45;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.featured-collections-button:hover {
+  color: #0078c9;
+}

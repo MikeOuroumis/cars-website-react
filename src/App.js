@@ -7,6 +7,7 @@ import Since1986 from "./components/since-1986-section";
 import CustomerFavoriteSection from "./components/shop-customer-favorites";
 import BrandsSection from "./components/brands-section";
 import FeaturedCollectionsSection from "./components/featured-collections-section";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <CustomerFavoriteSection />
         <BrandsSection />
         <FeaturedCollectionsSection />
+        <Footer />
       </div>
     </>
   );
