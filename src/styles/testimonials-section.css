@@ -1,0 +1,8 @@
+.testimonials-container {
+  background-color: blue;
+  scroll-behavior: smooth;
+}
+
+Carousel {
+  /* max-width: 50%; */
+}

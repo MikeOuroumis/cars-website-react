@@ -39,17 +39,16 @@ export const Row = styled.div`
 export const FooterLink = styled.a`
   color: #dfe1e2 !important;
   margin-bottom: 20px;
-  font-size: 18px;
-  text-decoration: none;
+  // font-size: 18px;
+  // text-decoration: none;
 
   font: var(--unnamed-font-style-normal) normal
     var(--unnamed-font-weight-normal) 13px/30px
     var(--unnamed-font-family-barlow);
   letter-spacing: var(--unnamed-character-spacing-0);
-  text-align: left;
-  font: normal normal normal 13px/30px Barlow;
+  text-align: left !important;
+  font: normal normal normal 13px/30px Barlow !important;
   letter-spacing: 0px;
-  color: #dfe1e2;
   opacity: 1;
 
   &:hover {
@@ -63,4 +62,12 @@ export const Heading = styled.p`
   color: #fff;
   margin-bottom: 40px;
   font-weight: bold;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    14px/21.97px var(--unnamed-font-family-coverking);
+  text-align: left;
+  font: normal normal bold 14px/22px Coverking;
+  letter-spacing: 0.7px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
 `;

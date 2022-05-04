@@ -8,6 +8,7 @@ import CustomerFavoriteSection from "./components/shop-customer-favorites";
 import BrandsSection from "./components/brands-section";
 import FeaturedCollectionsSection from "./components/featured-collections-section";
 import Footer from "./components/footer";
+import TestimonialsSection from "./components/testimonials-section";
 
 function App() {
   return (

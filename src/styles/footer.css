@@ -25,6 +25,7 @@
   margin-right: 12px;
   align-items: center;
   text-align: center;
+  margin-top: 50px;
 }
 
 .social-icons-container img {
@@ -35,4 +36,51 @@
 
 .social-icons-container {
   display: flex;
+}
+
+.emailBar {
+  border: none;
+  width: 378px;
+  height: 16px;
+  font: var(--unnamed-font-style-normal) normal medium 13px/21.97px
+    var(--unnamed-font-family-barlow);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal medium 13px/22px Barlow;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-left: 10px;
+  background-color: #00101a;
+}
+.emailBar,
+textarea {
+  outline: none;
+  color: #ffffff;
+}
+
+#emailInputWrapper ::placeholder {
+  color: #fff;
+}
+
+#emailInputWrapper div {
+  color: #fff;
+}
+
+.searchIcon {
+  text-align: right;
+  justify-content: right;
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+}
+#emailInputWrapper {
+  width: 376px;
+  height: 43px;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -6,6 +6,9 @@ import image1 from "../resources/Group 112.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import ButtonMain from "./button-main";
+import image2 from "../resources/Screenshot 2022-05-02 151519.png";
+import image3 from "../resources/Screenshot 2022-05-02 151612.png";
+import image4 from "../resources/Screenshot 2022-05-02 151655.png";
 
 const CustomerFavoriteSection = () => {
   const ref = useRef(null);
@@ -32,16 +35,16 @@ const CustomerFavoriteSection = () => {
           price="100"
         />
         <Card2
-          image={image1}
+          image={image2}
           description="Luxurious, Top-Grade American Leather Seating Surfaces with Top-Stitch Seams"
         />{" "}
         <Card2
-          image={image1}
+          image={image3}
           description="Luxurious, Top-Grade American Leather Seating Surfaces with Top-Stitch Seams"
           price="100"
         />{" "}
         <Card2
-          image={image1}
+          image={image4}
           description="Luxurious, Top-Grade American Leather Seating Surfaces with Top-Stitch Seams"
           price="100"
         />{" "}

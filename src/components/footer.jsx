@@ -6,6 +6,8 @@ import facebookIcon from "../resources/facebook icon.png";
 import instagramIcon from "../resources/instagram.png";
 import twitterIcon from "../resources/twitter.png";
 import youtubeIcon from "../resources/youtube.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -16,27 +18,47 @@ const Footer = () => {
         </Heading>
       </Column>
       <Column>
-        <Heading>About Us</Heading>
-        <FooterLink href="#">Aim</FooterLink>
-        <FooterLink href="#">Vision</FooterLink>
-        <FooterLink href="#">Testimonials</FooterLink>
+        <Heading>NEED HELP?</Heading>
+        <FooterLink href="#">Installation Videos</FooterLink>
+        <FooterLink href="#">Help Center</FooterLink>
+        <FooterLink href="#">Contact Support</FooterLink>
+        <FooterLink href="#">FAQs</FooterLink>
       </Column>
       <Column>
-        <Heading>Services</Heading>
-        <FooterLink href="#">Writing</FooterLink>
-        <FooterLink href="#">Internships</FooterLink>
-        <FooterLink href="#">Coding</FooterLink>
-        <FooterLink href="#">Teaching</FooterLink>
+        <Heading>ORDERS</Heading>
+        <FooterLink href="#">Track My Order</FooterLink>
+        <FooterLink href="#">Current Lead Times</FooterLink>
+        <FooterLink href="#">Warranty & Returns</FooterLink>
       </Column>
       <Column>
-        <Heading>Contact Us</Heading>
-        <FooterLink href="#">Uttar Pradesh</FooterLink>
-        <FooterLink href="#">Ahemdabad</FooterLink>
-        <FooterLink href="#">Indore</FooterLink>
-        <FooterLink href="#">Mumbai</FooterLink>
+        <Heading>RESOURCES & MORE</Heading>
+        <FooterLink href="#">Customer Reviews</FooterLink>
+        <FooterLink href="#">Free Material Swatches</FooterLink>
+        <FooterLink href="#">Dealer Portal</FooterLink>
+        <FooterLink href="#">View Print Catalog</FooterLink>
+        <FooterLink href="#">Real Customer Photos</FooterLink>
+        <FooterLink href="#">About Us</FooterLink>
+        <FooterLink href="#">Become A Dealer </FooterLink>
       </Column>
       <Column>
         <Heading>SUBSCRIBE TO OUR NEWSLETTER</Heading>
+        <FooterLink href="#">
+          Subscribe for the latest news and exclusive offers!
+        </FooterLink>
+        <div id="emailInputWrapper">
+          <input
+            className="emailBar"
+            type="text"
+            placeholder="Enter your email"
+          />
+          <div>
+            <FontAwesomeIcon
+              icon={faArrowRight}
+              style={{ marginRight: "10px" }}
+            />
+          </div>
+        </div>
+
         <div className="social-icons-container">
           <FooterLink href="#">
             <p>

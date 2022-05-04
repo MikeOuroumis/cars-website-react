@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import vehicle_icon from "../resources/vehicle_icon.png";
 import down_arrow from "../resources/Icon ionic-ios-arrow-down@2x.png";
+import "../styles/headertop.css";
 
 const Headertop = () => {
   return (
